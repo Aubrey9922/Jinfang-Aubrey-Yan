@@ -28,7 +28,7 @@ To start, we filtered out the buildings with less than 10% occupancy.
 ```{r echo = FALSE}
 
 
-grb = grb %>% 
+grb = grb %>%  
   filter(leasing_rate>=10)
 
 ```
